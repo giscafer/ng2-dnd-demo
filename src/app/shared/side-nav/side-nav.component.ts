@@ -9,6 +9,7 @@ export const componentsList = [
   'dnd-shopping-basket',
   'sortable-simple',
   'sortable-recycle-multi',
+  'target-sortable',
   'sortable-simple-copy',
   'sortable-multi',
   'sortable-embedded',

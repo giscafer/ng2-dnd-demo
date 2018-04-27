@@ -1,5 +1,8 @@
 # ngx-dnd-demo
 
-A demo for [ng2-dnd](https://github.com/akserg/ng2-dnd)
+extension for [ng2-dnd](https://github.com/akserg/ng2-dnd),support [ng2-dnd sorting in droppable list](https://github.com/akserg/ng2-dnd/issues/248)
+
+[online demo](https://giscafer.github.io/ngx-dnd-demo)
 
 ![](./demo.png)
+

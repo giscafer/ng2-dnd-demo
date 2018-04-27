@@ -11,9 +11,10 @@ import { MultiComponent } from './sortable/multi/multi.component';
 import { RecycleMultiComponent } from './sortable/recycle-multi/recycle-multi.component';
 import { EmbeddedComponent} from './sortable/embedded/embedded.component';
 import { SimpleSortableCopyComponent } from './sortable/simple-sortable-copy/simple-sortable-copy.component';
+import { TargetSortableComponent } from './sortable/target-sortable/target-sortable.component';
 
 export const dndComponents = [SimpleDemoComponent, SimpleComponent, ZoneComponent, CustomDataComponent, CustomFunctionComponent, ShoppingBasketComponent];
-export const sortableComponents = [SimpleComponent, MultiComponent, RecycleMultiComponent, EmbeddedComponent, SimpleSortableCopyComponent];
+export const sortableComponents = [SimpleComponent, MultiComponent, RecycleMultiComponent, EmbeddedComponent, SimpleSortableCopyComponent,TargetSortableComponent];
 
 export const routes: Routes = [
     { path: '', pathMatch: 'full', redirectTo: 'dnd-simple' },
@@ -25,6 +26,7 @@ export const routes: Routes = [
     { path: 'dnd-shopping-basket', component: ShoppingBasketComponent },
 
     { path: 'sortable-simple', component: SimpleComponent },
+    { path: 'target-sortable', component: TargetSortableComponent },
     { path: 'sortable-recycle-multi', component: RecycleMultiComponent },
     { path: 'sortable-simple-copy', component: SimpleSortableCopyComponent },
     { path: 'sortable-multi', component: MultiComponent },
