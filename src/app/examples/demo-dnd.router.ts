@@ -17,7 +17,7 @@ export const dndComponents = [SimpleDemoComponent, SimpleComponent, ZoneComponen
 export const sortableComponents = [SimpleComponent, MultiComponent, RecycleMultiComponent, EmbeddedComponent, SimpleSortableCopyComponent,TargetSortableComponent];
 
 export const routes: Routes = [
-    { path: '', pathMatch: 'full', redirectTo: 'dnd-simple' },
+    { path: '', pathMatch: 'full', redirectTo: 'dnd-zone' },
 
     { path: 'dnd-simple', component: SimpleDemoComponent },
     { path: 'dnd-zone', component: ZoneComponent },

@@ -26,7 +26,7 @@ import { DndModule } from 'dnd/dnd.module';
     FormsModule,
     HttpModule,
     SharedModule,
-    RouterModule.forRoot(routes),
+    RouterModule.forRoot(routes, { useHash: true }),
     DndModule.forRoot(),
     DemoDndModule
   ],
