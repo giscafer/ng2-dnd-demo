@@ -130,7 +130,7 @@ AppModule = __decorate([
             __WEBPACK_IMPORTED_MODULE_2__angular_forms__["a" /* FormsModule */],
             __WEBPACK_IMPORTED_MODULE_3__angular_http__["a" /* HttpModule */],
             __WEBPACK_IMPORTED_MODULE_8__shared__["a" /* SharedModule */],
-            __WEBPACK_IMPORTED_MODULE_4__angular_router__["a" /* RouterModule */].forRoot(__WEBPACK_IMPORTED_MODULE_7__app_router__["a" /* routes */]),
+            __WEBPACK_IMPORTED_MODULE_4__angular_router__["a" /* RouterModule */].forRoot(__WEBPACK_IMPORTED_MODULE_7__app_router__["a" /* routes */], { useHash: true }),
             __WEBPACK_IMPORTED_MODULE_11_dnd_dnd_module__["a" /* DndModule */].forRoot(),
             __WEBPACK_IMPORTED_MODULE_9__examples__["DemoDndModule"]
         ],
@@ -187,7 +187,7 @@ var routes = [
 var dndComponents = [__WEBPACK_IMPORTED_MODULE_0__dnd_simple__["b" /* SimpleDemoComponent */], __WEBPACK_IMPORTED_MODULE_5__sortable_simple_simple_component__["a" /* SimpleComponent */], __WEBPACK_IMPORTED_MODULE_1__dnd_zone_zone_component__["a" /* ZoneComponent */], __WEBPACK_IMPORTED_MODULE_2__dnd_custom_data_custom_data_component__["a" /* CustomDataComponent */], __WEBPACK_IMPORTED_MODULE_3__dnd_custom_function_custom_function_component__["a" /* CustomFunctionComponent */], __WEBPACK_IMPORTED_MODULE_4__dnd_shopping_basket_shopping_basket_component__["a" /* ShoppingBasketComponent */]];
 var sortableComponents = [__WEBPACK_IMPORTED_MODULE_5__sortable_simple_simple_component__["a" /* SimpleComponent */], __WEBPACK_IMPORTED_MODULE_6__sortable_multi_multi_component__["a" /* MultiComponent */], __WEBPACK_IMPORTED_MODULE_7__sortable_recycle_multi_recycle_multi_component__["a" /* RecycleMultiComponent */], __WEBPACK_IMPORTED_MODULE_8__sortable_embedded_embedded_component__["a" /* EmbeddedComponent */], __WEBPACK_IMPORTED_MODULE_9__sortable_simple_sortable_copy_simple_sortable_copy_component__["a" /* SimpleSortableCopyComponent */], __WEBPACK_IMPORTED_MODULE_10__sortable_target_sortable_target_sortable_component__["a" /* TargetSortableComponent */]];
 var routes = [
-    { path: '', pathMatch: 'full', redirectTo: 'dnd-simple' },
+    { path: '', pathMatch: 'full', redirectTo: 'dnd-zone' },
     { path: 'dnd-simple', component: __WEBPACK_IMPORTED_MODULE_0__dnd_simple__["b" /* SimpleDemoComponent */] },
     { path: 'dnd-zone', component: __WEBPACK_IMPORTED_MODULE_1__dnd_zone_zone_component__["a" /* ZoneComponent */] },
     { path: 'dnd-custom-data', component: __WEBPACK_IMPORTED_MODULE_2__dnd_custom_data_custom_data_component__["a" /* CustomDataComponent */] },
